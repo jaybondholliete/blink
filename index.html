@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Homepage</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000000;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        header {
+            width: 100%;
+            background-color: #FF69B4;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header nav,
+        footer nav {
+            margin-top: 20px;
+        }
+
+        header nav ul,
+        footer nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        header nav ul li,
+        footer nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        header nav ul li a,
+        footer nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        header nav ul li a:hover,
+        footer nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            background-color: #000000;
+            border-radius: 30px;
+            box-shadow: 0 5px 15px rgba(255, 105, 180, 0.35);
+            position: relative;
+            overflow: hidden;
+            width: 768px;
+            max-width: 100%;
+            min-height: 480px;
+            margin-top: 20px;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .container h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .container p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .container button {
+            background-color: #FF69B4;
+            color: #ffffff;
+            font-size: 1.1em;
+            padding: 10px 30px;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .container button:hover {
+            background-color: #ff4d8b;
+        }
+
+        footer {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="login.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container">
+            <h1>Welcome to Our Website</h1>
+            <p>This is the main content of our homepage. You can add any content here, such as information about your company, services, or products.</p>
+            <button>Learn More</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
